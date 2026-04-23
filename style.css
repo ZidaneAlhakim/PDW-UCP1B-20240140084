@@ -1,0 +1,17 @@
+/* style.css */
+:root {
+    --primary: #4F46E5;
+    --bg: #F9FAFB;
+    --text: #1F2937;
+    --card: #FFFFFF;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}
