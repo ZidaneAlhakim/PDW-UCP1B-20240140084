@@ -60,3 +60,32 @@ body {
     margin: 0 auto;
     line-height: 1.6;
 }
+
+.container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+.container h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.table-responsive {
+    background: var(--card);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #E5E7EB;
+}
+th {
+    background-color: #F3F4F6;
+    font-weight: 600;
+}
