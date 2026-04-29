@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Anggota - Tech Community</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Tech Community</div>
+        <ul class="nav-links">
+            <li><a href="./index.html">⬅ Kembali ke Home</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2>Form Pendaftaran Anggota Baru</h2>
+        
+        <div class="form-wrapper">
+            <form id="registerForm">
+                <div class="input-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" placeholder="contoh@email.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="minat">Bidang Minat</label>
+                    <select id="minat" required>
+                        <option value="">-- Pilih Bidang Minat --</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Data Science">Data Science</option>
+                        <option value="Cyber Security">Cyber Security</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Daftar Sekarang</button>
+            </form>
+        </div>
+
+        <div id="resultArea" style="display: none;">
+            <h3>Data Berhasil Disimpan!</h3>
+            <p id="resultText"></p>
+        </div>
+    </main>
+
+    <script src="form-script.js"></script>
+</body>
+</html>
